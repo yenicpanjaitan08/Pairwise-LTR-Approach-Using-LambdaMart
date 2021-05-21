@@ -6,6 +6,12 @@ LambdaMART memodelkan gradient dengan menggunakan posisi peringkat dari dokumen 
 
 Evaluasi performa dari kinerja perankingan Learning to Rank menggunakan metrik Normalized Discounted Cumulative Gain (NDCG).
 
+Berikut adalah formula yang digunakan untuk menghitung DCG dan iDCG:
+![image](https://user-images.githubusercontent.com/60861592/119132341-c6d0ca00-ba64-11eb-8a17-895c842473be.png)
+
+Sehingga untuk mendapatkan nilai dari NDCG, dapat digunakan formula berikut ini:
+![image](https://user-images.githubusercontent.com/60861592/119132426-dfd97b00-ba64-11eb-946c-1ea8263d2039.png)
+
 
 ### Dataset LETOR 4.0 (MQ2008)
 Million queries dataset from TREC 2008 :
